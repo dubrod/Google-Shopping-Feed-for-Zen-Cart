@@ -1,0 +1,8 @@
+<?
+// ENTER YOUR DATABASE CREDENTIALS 
+
+  define('DB_SERVER_USERNAME', 'XXX');
+  define('DB_SERVER_PASSWORD', 'XXX');
+  define('DB_DATABASE', 'XXX');
+  
+?>
