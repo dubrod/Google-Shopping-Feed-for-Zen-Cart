@@ -4,9 +4,9 @@ include_once('config.php');
 $desc = stripslashes($_POST[desc_field]);
 $m=date("m")+1;
 if($m<10){
-$expiration = date("Y-0$m-j");
+$expiration = date("Y-0$m-d");
 } else {
-$expiration = date("Y-$m-j");
+$expiration = date("Y-$m-d");
 }
 
 // GET CATEGORIES FROM BEFORE
